@@ -1,10 +1,13 @@
 import { colors } from "@/constants/colors";
 import AntDesign from "@expo/vector-icons/AntDesign";
 import { Tabs } from "expo-router";
+import { StatusBar } from "expo-status-bar";
 
 const PrivateLayout = () => {
   return (
     <>
+      <StatusBar style="inverted" />
+
       <Tabs
         screenOptions={{
           headerShown: false,
