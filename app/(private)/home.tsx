@@ -1,4 +1,3 @@
-import { Link } from "expo-router";
 import { Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 
@@ -6,9 +5,7 @@ const Home = () => {
   return (
     <>
       <SafeAreaView>
-        <Text>There is a home page</Text>
-
-        <Link href="/home">Go To Home page</Link>
+        <Text>There is a private home page.</Text>
       </SafeAreaView>
     </>
   );
